@@ -1,0 +1,26 @@
+c:\users\asus\documents\visual studio 2013\Projects\statistikorderbaju\statistikorderbaju\bin\Debug\statistikorderbaju.exe.config
+c:\users\asus\documents\visual studio 2013\Projects\statistikorderbaju\statistikorderbaju\bin\Debug\statistikorderbaju.exe
+c:\users\asus\documents\visual studio 2013\Projects\statistikorderbaju\statistikorderbaju\bin\Debug\statistikorderbaju.pdb
+c:\users\asus\documents\visual studio 2013\Projects\statistikorderbaju\statistikorderbaju\bin\Debug\statistikorderbaju.xml
+c:\users\asus\documents\visual studio 2013\Projects\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.Resources.resources
+c:\users\asus\documents\visual studio 2013\Projects\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.vbproj.GenerateResource.Cache
+c:\users\asus\documents\visual studio 2013\Projects\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.exe
+c:\users\asus\documents\visual studio 2013\Projects\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.xml
+c:\users\asus\documents\visual studio 2013\Projects\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.pdb
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.MainMenu.resources
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.frmPESAN.resources
+C:\Users\Asus\Documents\Visual Studio 2013\Projects\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.add.resources
+D:\other\statistikorderbaju\statistikorderbaju\bin\Debug\statistikorderbaju.exe.config
+D:\other\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.exe
+D:\other\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.xml
+D:\other\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.pdb
+D:\other\statistikorderbaju\statistikorderbaju\bin\Debug\statistikorderbaju.exe
+D:\other\statistikorderbaju\statistikorderbaju\bin\Debug\statistikorderbaju.pdb
+D:\other\statistikorderbaju\statistikorderbaju\bin\Debug\statistikorderbaju.xml
+D:\other\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.add.resources
+D:\other\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.frmPESAN.resources
+D:\other\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.MainMenu.resources
+D:\other\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.Resources.resources
+D:\other\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.pemesanan.resources
+D:\other\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.vbproj.GenerateResource.Cache
+D:\other\statistikorderbaju\statistikorderbaju\obj\Debug\statistikorderbaju.vbprojResolveAssemblyReference.cache

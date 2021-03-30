@@ -1,0 +1,1325 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Me.cmbkedeputian = New System.Windows.Forms.ComboBox()
+        Me.cmbdirektorat = New System.Windows.Forms.ComboBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.cmbsubdir = New System.Windows.Forms.ComboBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.cmbStaff = New System.Windows.Forms.ComboBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.lbldir = New System.Windows.Forms.Label()
+        Me.lblsdir = New System.Windows.Forms.Label()
+        Me.lblStaff = New System.Windows.Forms.Label()
+        Me.grpPESAN = New System.Windows.Forms.GroupBox()
+        Me.Skid = New System.Windows.Forms.TextBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.lblDEPUTI = New System.Windows.Forms.Label()
+        Me.deputi = New System.Windows.Forms.Timer(Me.components)
+        Me.direktorat = New System.Windows.Forms.Timer(Me.components)
+        Me.subdir = New System.Windows.Forms.Timer(Me.components)
+        Me.tmrSTAFF = New System.Windows.Forms.Timer(Me.components)
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.XXLkid = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.XLkid = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Lkid = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Mkid = New System.Windows.Forms.TextBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.CheckBox10 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox14 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox15 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox16 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox18 = New System.Windows.Forms.CheckBox()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.CheckBox19 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox20 = New System.Windows.Forms.CheckBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Sadult = New System.Windows.Forms.TextBox()
+        Me.Madul = New System.Windows.Forms.TextBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.Button16 = New System.Windows.Forms.Button()
+        Me.Button17 = New System.Windows.Forms.Button()
+        Me.Button18 = New System.Windows.Forms.Button()
+        Me.Button19 = New System.Windows.Forms.Button()
+        Me.Button20 = New System.Windows.Forms.Button()
+        Me.Button21 = New System.Windows.Forms.Button()
+        Me.Button22 = New System.Windows.Forms.Button()
+        Me.Button23 = New System.Windows.Forms.Button()
+        Me.Button24 = New System.Windows.Forms.Button()
+        Me.Button25 = New System.Windows.Forms.Button()
+        Me.GroupBox1.SuspendLayout()
+        Me.grpPESAN.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'cmbkedeputian
+        '
+        Me.cmbkedeputian.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbkedeputian.FormattingEnabled = True
+        Me.cmbkedeputian.Items.AddRange(New Object() {"Sekretariat Utama", "Bidang Metodologi dan Informasi Statistik", "Bidang Stat Sosial", "Bidang Stat Produksi", "Bidang Stat Distribusi dan Jasa", "Bidang Neraca dan Analisis Statistik", "Inspektur Utama"})
+        Me.cmbkedeputian.Location = New System.Drawing.Point(22, 235)
+        Me.cmbkedeputian.Name = "cmbkedeputian"
+        Me.cmbkedeputian.Size = New System.Drawing.Size(224, 21)
+        Me.cmbkedeputian.TabIndex = 0
+        '
+        'cmbdirektorat
+        '
+        Me.cmbdirektorat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbdirektorat.FormattingEnabled = True
+        Me.cmbdirektorat.Location = New System.Drawing.Point(22, 280)
+        Me.cmbdirektorat.Name = "cmbdirektorat"
+        Me.cmbdirektorat.Size = New System.Drawing.Size(224, 21)
+        Me.cmbdirektorat.TabIndex = 0
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(19, 264)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(76, 16)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Direktorat"
+        '
+        'cmbsubdir
+        '
+        Me.cmbsubdir.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbsubdir.FormattingEnabled = True
+        Me.cmbsubdir.Location = New System.Drawing.Point(22, 325)
+        Me.cmbsubdir.Name = "cmbsubdir"
+        Me.cmbsubdir.Size = New System.Drawing.Size(224, 21)
+        Me.cmbsubdir.TabIndex = 0
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(19, 309)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(107, 16)
+        Me.Label3.TabIndex = 1
+        Me.Label3.Text = "Sub Direktorat"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(19, 219)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(86, 16)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Kedeputian"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(19, 136)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(84, 16)
+        Me.Label4.TabIndex = 3
+        Me.Label4.Text = "Nama Staff"
+        '
+        'cmbStaff
+        '
+        Me.cmbStaff.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbStaff.FormattingEnabled = True
+        Me.cmbStaff.Location = New System.Drawing.Point(22, 152)
+        Me.cmbStaff.Name = "cmbStaff"
+        Me.cmbStaff.Size = New System.Drawing.Size(224, 21)
+        Me.cmbStaff.TabIndex = 2
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.BackColor = System.Drawing.Color.PaleGoldenrod
+        Me.GroupBox1.Controls.Add(Me.Button5)
+        Me.GroupBox1.Controls.Add(Me.PictureBox3)
+        Me.GroupBox1.Controls.Add(Me.Label5)
+        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.PictureBox2)
+        Me.GroupBox1.Controls.Add(Me.PictureBox1)
+        Me.GroupBox1.Controls.Add(Me.cmbStaff)
+        Me.GroupBox1.Controls.Add(Me.Label4)
+        Me.GroupBox1.Controls.Add(Me.cmbkedeputian)
+        Me.GroupBox1.Controls.Add(Me.cmbdirektorat)
+        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Controls.Add(Me.cmbsubdir)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Location = New System.Drawing.Point(2, 2)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(264, 510)
+        Me.GroupBox1.TabIndex = 4
+        Me.GroupBox1.TabStop = False
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(22, 409)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(224, 20)
+        Me.TextBox1.TabIndex = 5
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(19, 389)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(45, 16)
+        Me.Label5.TabIndex = 7
+        Me.Label5.Text = "Other"
+        '
+        'lbldir
+        '
+        Me.lbldir.AutoSize = True
+        Me.lbldir.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbldir.ForeColor = System.Drawing.Color.RoyalBlue
+        Me.lbldir.Location = New System.Drawing.Point(272, 283)
+        Me.lbldir.Name = "lbldir"
+        Me.lbldir.Size = New System.Drawing.Size(110, 16)
+        Me.lbldir.TabIndex = 8
+        Me.lbldir.Text = "Pilih Direktorat"
+        '
+        'lblsdir
+        '
+        Me.lblsdir.AutoSize = True
+        Me.lblsdir.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblsdir.ForeColor = System.Drawing.Color.RoyalBlue
+        Me.lblsdir.Location = New System.Drawing.Point(272, 332)
+        Me.lblsdir.Name = "lblsdir"
+        Me.lblsdir.Size = New System.Drawing.Size(141, 16)
+        Me.lblsdir.TabIndex = 9
+        Me.lblsdir.Text = "Pilih Sub Direktorat"
+        '
+        'lblStaff
+        '
+        Me.lblStaff.AutoSize = True
+        Me.lblStaff.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStaff.ForeColor = System.Drawing.Color.RoyalBlue
+        Me.lblStaff.Location = New System.Drawing.Point(272, 155)
+        Me.lblStaff.Name = "lblStaff"
+        Me.lblStaff.Size = New System.Drawing.Size(118, 16)
+        Me.lblStaff.TabIndex = 10
+        Me.lblStaff.Text = "Pilih Nama Staff"
+        '
+        'grpPESAN
+        '
+        Me.grpPESAN.Controls.Add(Me.GroupBox2)
+        Me.grpPESAN.Controls.Add(Me.GroupBox4)
+        Me.grpPESAN.Controls.Add(Me.GroupBox3)
+        Me.grpPESAN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.grpPESAN.Location = New System.Drawing.Point(418, 2)
+        Me.grpPESAN.Name = "grpPESAN"
+        Me.grpPESAN.Size = New System.Drawing.Size(767, 510)
+        Me.grpPESAN.TabIndex = 8
+        Me.grpPESAN.TabStop = False
+        Me.grpPESAN.Text = "Pemesanan Size Baju Event"
+        '
+        'Skid
+        '
+        Me.Skid.Location = New System.Drawing.Point(11, 147)
+        Me.Skid.Name = "Skid"
+        Me.Skid.ReadOnly = True
+        Me.Skid.Size = New System.Drawing.Size(49, 22)
+        Me.Skid.TabIndex = 8
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(193, 149)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(61, 20)
+        Me.CheckBox1.TabIndex = 9
+        Me.CheckBox1.Text = "Long"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.BackColor = System.Drawing.Color.Orange
+        Me.GroupBox3.Controls.Add(Me.Button14)
+        Me.GroupBox3.Controls.Add(Me.Button15)
+        Me.GroupBox3.Controls.Add(Me.Button12)
+        Me.GroupBox3.Controls.Add(Me.Button13)
+        Me.GroupBox3.Controls.Add(Me.Button10)
+        Me.GroupBox3.Controls.Add(Me.Button11)
+        Me.GroupBox3.Controls.Add(Me.Button8)
+        Me.GroupBox3.Controls.Add(Me.Button9)
+        Me.GroupBox3.Controls.Add(Me.Button7)
+        Me.GroupBox3.Controls.Add(Me.Button6)
+        Me.GroupBox3.Controls.Add(Me.CheckBox8)
+        Me.GroupBox3.Controls.Add(Me.CheckBox9)
+        Me.GroupBox3.Controls.Add(Me.CheckBox6)
+        Me.GroupBox3.Controls.Add(Me.CheckBox7)
+        Me.GroupBox3.Controls.Add(Me.CheckBox4)
+        Me.GroupBox3.Controls.Add(Me.CheckBox5)
+        Me.GroupBox3.Controls.Add(Me.CheckBox2)
+        Me.GroupBox3.Controls.Add(Me.CheckBox3)
+        Me.GroupBox3.Controls.Add(Me.Label16)
+        Me.GroupBox3.Controls.Add(Me.CheckBox11)
+        Me.GroupBox3.Controls.Add(Me.Button3)
+        Me.GroupBox3.Controls.Add(Me.Button1)
+        Me.GroupBox3.Controls.Add(Me.PictureBox8)
+        Me.GroupBox3.Controls.Add(Me.PictureBox6)
+        Me.GroupBox3.Controls.Add(Me.Label10)
+        Me.GroupBox3.Controls.Add(Me.XXLkid)
+        Me.GroupBox3.Controls.Add(Me.Label9)
+        Me.GroupBox3.Controls.Add(Me.XLkid)
+        Me.GroupBox3.Controls.Add(Me.Label8)
+        Me.GroupBox3.Controls.Add(Me.Lkid)
+        Me.GroupBox3.Controls.Add(Me.Label11)
+        Me.GroupBox3.Controls.Add(Me.Mkid)
+        Me.GroupBox3.Controls.Add(Me.Label6)
+        Me.GroupBox3.Controls.Add(Me.PictureBox4)
+        Me.GroupBox3.Controls.Add(Me.CheckBox1)
+        Me.GroupBox3.Controls.Add(Me.Skid)
+        Me.GroupBox3.Location = New System.Drawing.Point(17, 33)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(277, 461)
+        Me.GroupBox3.TabIndex = 11
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Kids Size"
+        '
+        'lblDEPUTI
+        '
+        Me.lblDEPUTI.AutoSize = True
+        Me.lblDEPUTI.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDEPUTI.ForeColor = System.Drawing.Color.RoyalBlue
+        Me.lblDEPUTI.Location = New System.Drawing.Point(272, 238)
+        Me.lblDEPUTI.Name = "lblDEPUTI"
+        Me.lblDEPUTI.Size = New System.Drawing.Size(120, 16)
+        Me.lblDEPUTI.TabIndex = 8
+        Me.lblDEPUTI.Text = "Pilih Kedeputian"
+        '
+        'deputi
+        '
+        Me.deputi.Interval = 500
+        '
+        'direktorat
+        '
+        Me.direktorat.Interval = 500
+        '
+        'subdir
+        '
+        Me.subdir.Interval = 500
+        '
+        'tmrSTAFF
+        '
+        Me.tmrSTAFF.Interval = 500
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(8, 124)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(18, 16)
+        Me.Label6.TabIndex = 9
+        Me.Label6.Text = "S"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(8, 324)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(34, 16)
+        Me.Label10.TabIndex = 30
+        Me.Label10.Text = "XXL"
+        '
+        'XXLkid
+        '
+        Me.XXLkid.Location = New System.Drawing.Point(11, 347)
+        Me.XXLkid.Name = "XXLkid"
+        Me.XXLkid.ReadOnly = True
+        Me.XXLkid.Size = New System.Drawing.Size(49, 22)
+        Me.XXLkid.TabIndex = 28
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(8, 275)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(25, 16)
+        Me.Label9.TabIndex = 27
+        Me.Label9.Text = "XL"
+        '
+        'XLkid
+        '
+        Me.XLkid.Location = New System.Drawing.Point(11, 298)
+        Me.XLkid.Name = "XLkid"
+        Me.XLkid.ReadOnly = True
+        Me.XLkid.Size = New System.Drawing.Size(49, 22)
+        Me.XLkid.TabIndex = 25
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(8, 226)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(16, 16)
+        Me.Label8.TabIndex = 24
+        Me.Label8.Text = "L"
+        '
+        'Lkid
+        '
+        Me.Lkid.Location = New System.Drawing.Point(11, 249)
+        Me.Lkid.Name = "Lkid"
+        Me.Lkid.ReadOnly = True
+        Me.Lkid.Size = New System.Drawing.Size(49, 22)
+        Me.Lkid.TabIndex = 22
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(8, 174)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(20, 16)
+        Me.Label11.TabIndex = 20
+        Me.Label11.Text = "M"
+        '
+        'Mkid
+        '
+        Me.Mkid.Location = New System.Drawing.Point(11, 197)
+        Me.Mkid.Name = "Mkid"
+        Me.Mkid.ReadOnly = True
+        Me.Mkid.Size = New System.Drawing.Size(49, 22)
+        Me.Mkid.TabIndex = 19
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.BackColor = System.Drawing.Color.Khaki
+        Me.GroupBox4.Controls.Add(Me.Button24)
+        Me.GroupBox4.Controls.Add(Me.Button25)
+        Me.GroupBox4.Controls.Add(Me.Button22)
+        Me.GroupBox4.Controls.Add(Me.Button23)
+        Me.GroupBox4.Controls.Add(Me.Button20)
+        Me.GroupBox4.Controls.Add(Me.Button21)
+        Me.GroupBox4.Controls.Add(Me.Button18)
+        Me.GroupBox4.Controls.Add(Me.Button19)
+        Me.GroupBox4.Controls.Add(Me.Button16)
+        Me.GroupBox4.Controls.Add(Me.Button17)
+        Me.GroupBox4.Controls.Add(Me.TextBox10)
+        Me.GroupBox4.Controls.Add(Me.TextBox9)
+        Me.GroupBox4.Controls.Add(Me.TextBox8)
+        Me.GroupBox4.Controls.Add(Me.Madul)
+        Me.GroupBox4.Controls.Add(Me.Sadult)
+        Me.GroupBox4.Controls.Add(Me.CheckBox10)
+        Me.GroupBox4.Controls.Add(Me.Button4)
+        Me.GroupBox4.Controls.Add(Me.CheckBox12)
+        Me.GroupBox4.Controls.Add(Me.Button2)
+        Me.GroupBox4.Controls.Add(Me.CheckBox13)
+        Me.GroupBox4.Controls.Add(Me.PictureBox9)
+        Me.GroupBox4.Controls.Add(Me.CheckBox14)
+        Me.GroupBox4.Controls.Add(Me.PictureBox7)
+        Me.GroupBox4.Controls.Add(Me.CheckBox15)
+        Me.GroupBox4.Controls.Add(Me.Label7)
+        Me.GroupBox4.Controls.Add(Me.CheckBox16)
+        Me.GroupBox4.Controls.Add(Me.CheckBox17)
+        Me.GroupBox4.Controls.Add(Me.Label12)
+        Me.GroupBox4.Controls.Add(Me.CheckBox18)
+        Me.GroupBox4.Controls.Add(Me.Label17)
+        Me.GroupBox4.Controls.Add(Me.Label13)
+        Me.GroupBox4.Controls.Add(Me.CheckBox19)
+        Me.GroupBox4.Controls.Add(Me.CheckBox20)
+        Me.GroupBox4.Controls.Add(Me.Label14)
+        Me.GroupBox4.Controls.Add(Me.Label15)
+        Me.GroupBox4.Controls.Add(Me.PictureBox5)
+        Me.GroupBox4.Location = New System.Drawing.Point(312, 33)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(284, 461)
+        Me.GroupBox4.TabIndex = 31
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "Adult Size"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(8, 324)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(34, 16)
+        Me.Label7.TabIndex = 30
+        Me.Label7.Text = "XXL"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(8, 275)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(25, 16)
+        Me.Label12.TabIndex = 27
+        Me.Label12.Text = "XL"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(8, 226)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(16, 16)
+        Me.Label13.TabIndex = 24
+        Me.Label13.Text = "L"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(8, 174)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(20, 16)
+        Me.Label14.TabIndex = 20
+        Me.Label14.Text = "M"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(8, 124)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(18, 16)
+        Me.Label15.TabIndex = 9
+        Me.Label15.Text = "S"
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox7.BackgroundImage = Global.statistikorderbaju.My.Resources.Resources.white_tshirt_md
+        Me.PictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox7.Location = New System.Drawing.Point(104, 21)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(78, 83)
+        Me.PictureBox7.TabIndex = 32
+        Me.PictureBox7.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox5.BackgroundImage = Global.statistikorderbaju.My.Resources.Resources.Kaos_Hitam_Polos_Depan
+        Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox5.Location = New System.Drawing.Point(11, 21)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(78, 83)
+        Me.PictureBox5.TabIndex = 9
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox8.BackgroundImage = Global.statistikorderbaju.My.Resources.Resources.image_20160915_014251_139
+        Me.PictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox8.Location = New System.Drawing.Point(193, 21)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(78, 83)
+        Me.PictureBox8.TabIndex = 32
+        Me.PictureBox8.TabStop = False
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox6.BackgroundImage = Global.statistikorderbaju.My.Resources.Resources.Kaos_Hitam_Polos_Depan
+        Me.PictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox6.Location = New System.Drawing.Point(99, 21)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(78, 83)
+        Me.PictureBox6.TabIndex = 31
+        Me.PictureBox6.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox4.BackgroundImage = Global.statistikorderbaju.My.Resources.Resources.white_tshirt_md
+        Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox4.Location = New System.Drawing.Point(6, 21)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(78, 83)
+        Me.PictureBox4.TabIndex = 9
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox3.BackgroundImage = Global.statistikorderbaju.My.Resources.Resources.businessmen_42691_960_720
+        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox3.Location = New System.Drawing.Point(10, 10)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(236, 123)
+        Me.PictureBox3.TabIndex = 8
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.DarkKhaki
+        Me.PictureBox2.Location = New System.Drawing.Point(-4, 365)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(269, 10)
+        Me.PictureBox2.TabIndex = 6
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.DarkKhaki
+        Me.PictureBox1.Location = New System.Drawing.Point(-2, 190)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(270, 10)
+        Me.PictureBox1.TabIndex = 5
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox9
+        '
+        Me.PictureBox9.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox9.BackgroundImage = Global.statistikorderbaju.My.Resources.Resources.image_20160915_014251_139
+        Me.PictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox9.Location = New System.Drawing.Point(199, 21)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(78, 83)
+        Me.PictureBox9.TabIndex = 33
+        Me.PictureBox9.TabStop = False
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(11, 376)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 30)
+        Me.Button1.TabIndex = 32
+        Me.Button1.Text = "Lock"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(11, 375)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 30)
+        Me.Button2.TabIndex = 33
+        Me.Button2.Text = "Lock"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(11, 412)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 30)
+        Me.Button3.TabIndex = 33
+        Me.Button3.Text = "Unlock"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(11, 411)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 30)
+        Me.Button4.TabIndex = 33
+        Me.Button4.Text = "Unlock"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'CheckBox11
+        '
+        Me.CheckBox11.AutoSize = True
+        Me.CheckBox11.Location = New System.Drawing.Point(124, 149)
+        Me.CheckBox11.Name = "CheckBox11"
+        Me.CheckBox11.Size = New System.Drawing.Size(63, 20)
+        Me.CheckBox11.TabIndex = 34
+        Me.CheckBox11.Text = "Short"
+        Me.CheckBox11.UseVisualStyleBackColor = True
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(121, 126)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(122, 16)
+        Me.Label16.TabIndex = 35
+        Me.Label16.Text = "Sleeve (Lengan)"
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Location = New System.Drawing.Point(124, 199)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(63, 20)
+        Me.CheckBox2.TabIndex = 37
+        Me.CheckBox2.Text = "Short"
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Location = New System.Drawing.Point(193, 199)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(61, 20)
+        Me.CheckBox3.TabIndex = 36
+        Me.CheckBox3.Text = "Long"
+        Me.CheckBox3.UseVisualStyleBackColor = True
+        '
+        'CheckBox4
+        '
+        Me.CheckBox4.AutoSize = True
+        Me.CheckBox4.Location = New System.Drawing.Point(124, 248)
+        Me.CheckBox4.Name = "CheckBox4"
+        Me.CheckBox4.Size = New System.Drawing.Size(63, 20)
+        Me.CheckBox4.TabIndex = 39
+        Me.CheckBox4.Text = "Short"
+        Me.CheckBox4.UseVisualStyleBackColor = True
+        '
+        'CheckBox5
+        '
+        Me.CheckBox5.AutoSize = True
+        Me.CheckBox5.Location = New System.Drawing.Point(193, 247)
+        Me.CheckBox5.Name = "CheckBox5"
+        Me.CheckBox5.Size = New System.Drawing.Size(61, 20)
+        Me.CheckBox5.TabIndex = 38
+        Me.CheckBox5.Text = "Long"
+        Me.CheckBox5.UseVisualStyleBackColor = True
+        '
+        'CheckBox6
+        '
+        Me.CheckBox6.AutoSize = True
+        Me.CheckBox6.Location = New System.Drawing.Point(124, 300)
+        Me.CheckBox6.Name = "CheckBox6"
+        Me.CheckBox6.Size = New System.Drawing.Size(63, 20)
+        Me.CheckBox6.TabIndex = 41
+        Me.CheckBox6.Text = "Short"
+        Me.CheckBox6.UseVisualStyleBackColor = True
+        '
+        'CheckBox7
+        '
+        Me.CheckBox7.AutoSize = True
+        Me.CheckBox7.Location = New System.Drawing.Point(193, 300)
+        Me.CheckBox7.Name = "CheckBox7"
+        Me.CheckBox7.Size = New System.Drawing.Size(61, 20)
+        Me.CheckBox7.TabIndex = 40
+        Me.CheckBox7.Text = "Long"
+        Me.CheckBox7.UseVisualStyleBackColor = True
+        '
+        'CheckBox8
+        '
+        Me.CheckBox8.AutoSize = True
+        Me.CheckBox8.Location = New System.Drawing.Point(124, 349)
+        Me.CheckBox8.Name = "CheckBox8"
+        Me.CheckBox8.Size = New System.Drawing.Size(63, 20)
+        Me.CheckBox8.TabIndex = 43
+        Me.CheckBox8.Text = "Short"
+        Me.CheckBox8.UseVisualStyleBackColor = True
+        '
+        'CheckBox9
+        '
+        Me.CheckBox9.AutoSize = True
+        Me.CheckBox9.Location = New System.Drawing.Point(193, 349)
+        Me.CheckBox9.Name = "CheckBox9"
+        Me.CheckBox9.Size = New System.Drawing.Size(61, 20)
+        Me.CheckBox9.TabIndex = 42
+        Me.CheckBox9.Text = "Long"
+        Me.CheckBox9.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(171, 435)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 30)
+        Me.Button5.TabIndex = 44
+        Me.Button5.Text = "Pesan"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'CheckBox10
+        '
+        Me.CheckBox10.AutoSize = True
+        Me.CheckBox10.Location = New System.Drawing.Point(120, 349)
+        Me.CheckBox10.Name = "CheckBox10"
+        Me.CheckBox10.Size = New System.Drawing.Size(63, 20)
+        Me.CheckBox10.TabIndex = 54
+        Me.CheckBox10.Text = "Short"
+        Me.CheckBox10.UseVisualStyleBackColor = True
+        '
+        'CheckBox12
+        '
+        Me.CheckBox12.AutoSize = True
+        Me.CheckBox12.Location = New System.Drawing.Point(189, 349)
+        Me.CheckBox12.Name = "CheckBox12"
+        Me.CheckBox12.Size = New System.Drawing.Size(61, 20)
+        Me.CheckBox12.TabIndex = 53
+        Me.CheckBox12.Text = "Long"
+        Me.CheckBox12.UseVisualStyleBackColor = True
+        '
+        'CheckBox13
+        '
+        Me.CheckBox13.AutoSize = True
+        Me.CheckBox13.Location = New System.Drawing.Point(120, 300)
+        Me.CheckBox13.Name = "CheckBox13"
+        Me.CheckBox13.Size = New System.Drawing.Size(63, 20)
+        Me.CheckBox13.TabIndex = 52
+        Me.CheckBox13.Text = "Short"
+        Me.CheckBox13.UseVisualStyleBackColor = True
+        '
+        'CheckBox14
+        '
+        Me.CheckBox14.AutoSize = True
+        Me.CheckBox14.Location = New System.Drawing.Point(189, 300)
+        Me.CheckBox14.Name = "CheckBox14"
+        Me.CheckBox14.Size = New System.Drawing.Size(61, 20)
+        Me.CheckBox14.TabIndex = 51
+        Me.CheckBox14.Text = "Long"
+        Me.CheckBox14.UseVisualStyleBackColor = True
+        '
+        'CheckBox15
+        '
+        Me.CheckBox15.AutoSize = True
+        Me.CheckBox15.Location = New System.Drawing.Point(120, 248)
+        Me.CheckBox15.Name = "CheckBox15"
+        Me.CheckBox15.Size = New System.Drawing.Size(63, 20)
+        Me.CheckBox15.TabIndex = 50
+        Me.CheckBox15.Text = "Short"
+        Me.CheckBox15.UseVisualStyleBackColor = True
+        '
+        'CheckBox16
+        '
+        Me.CheckBox16.AutoSize = True
+        Me.CheckBox16.Location = New System.Drawing.Point(189, 247)
+        Me.CheckBox16.Name = "CheckBox16"
+        Me.CheckBox16.Size = New System.Drawing.Size(61, 20)
+        Me.CheckBox16.TabIndex = 49
+        Me.CheckBox16.Text = "Long"
+        Me.CheckBox16.UseVisualStyleBackColor = True
+        '
+        'CheckBox17
+        '
+        Me.CheckBox17.AutoSize = True
+        Me.CheckBox17.Location = New System.Drawing.Point(120, 199)
+        Me.CheckBox17.Name = "CheckBox17"
+        Me.CheckBox17.Size = New System.Drawing.Size(63, 20)
+        Me.CheckBox17.TabIndex = 48
+        Me.CheckBox17.Text = "Short"
+        Me.CheckBox17.UseVisualStyleBackColor = True
+        '
+        'CheckBox18
+        '
+        Me.CheckBox18.AutoSize = True
+        Me.CheckBox18.Location = New System.Drawing.Point(189, 199)
+        Me.CheckBox18.Name = "CheckBox18"
+        Me.CheckBox18.Size = New System.Drawing.Size(61, 20)
+        Me.CheckBox18.TabIndex = 47
+        Me.CheckBox18.Text = "Long"
+        Me.CheckBox18.UseVisualStyleBackColor = True
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(117, 126)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(122, 16)
+        Me.Label17.TabIndex = 46
+        Me.Label17.Text = "Sleeve (Lengan)"
+        '
+        'CheckBox19
+        '
+        Me.CheckBox19.AutoSize = True
+        Me.CheckBox19.Location = New System.Drawing.Point(120, 149)
+        Me.CheckBox19.Name = "CheckBox19"
+        Me.CheckBox19.Size = New System.Drawing.Size(63, 20)
+        Me.CheckBox19.TabIndex = 45
+        Me.CheckBox19.Text = "Short"
+        Me.CheckBox19.UseVisualStyleBackColor = True
+        '
+        'CheckBox20
+        '
+        Me.CheckBox20.AutoSize = True
+        Me.CheckBox20.Location = New System.Drawing.Point(189, 149)
+        Me.CheckBox20.Name = "CheckBox20"
+        Me.CheckBox20.Size = New System.Drawing.Size(61, 20)
+        Me.CheckBox20.TabIndex = 44
+        Me.CheckBox20.Text = "Long"
+        Me.CheckBox20.UseVisualStyleBackColor = True
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.BackColor = System.Drawing.Color.DarkKhaki
+        Me.GroupBox2.Location = New System.Drawing.Point(602, 34)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(159, 460)
+        Me.GroupBox2.TabIndex = 32
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Size Description"
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.Red
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button6.Location = New System.Drawing.Point(66, 147)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(20, 22)
+        Me.Button6.TabIndex = 45
+        Me.Button6.Text = "<"
+        Me.Button6.UseVisualStyleBackColor = False
+        '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.GreenYellow
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button7.Location = New System.Drawing.Point(84, 147)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(20, 22)
+        Me.Button7.TabIndex = 46
+        Me.Button7.Text = ">"
+        Me.Button7.UseVisualStyleBackColor = False
+        '
+        'Sadult
+        '
+        Me.Sadult.Location = New System.Drawing.Point(11, 147)
+        Me.Sadult.Name = "Sadult"
+        Me.Sadult.ReadOnly = True
+        Me.Sadult.Size = New System.Drawing.Size(49, 22)
+        Me.Sadult.TabIndex = 55
+        '
+        'Madul
+        '
+        Me.Madul.Location = New System.Drawing.Point(11, 197)
+        Me.Madul.Name = "Madul"
+        Me.Madul.ReadOnly = True
+        Me.Madul.Size = New System.Drawing.Size(49, 22)
+        Me.Madul.TabIndex = 58
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Location = New System.Drawing.Point(11, 247)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.ReadOnly = True
+        Me.TextBox8.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox8.TabIndex = 61
+        '
+        'TextBox9
+        '
+        Me.TextBox9.Location = New System.Drawing.Point(11, 294)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.ReadOnly = True
+        Me.TextBox9.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox9.TabIndex = 64
+        '
+        'TextBox10
+        '
+        Me.TextBox10.Location = New System.Drawing.Point(11, 343)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.ReadOnly = True
+        Me.TextBox10.Size = New System.Drawing.Size(49, 22)
+        Me.TextBox10.TabIndex = 67
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.GreenYellow
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button8.Location = New System.Drawing.Point(84, 197)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(20, 22)
+        Me.Button8.TabIndex = 48
+        Me.Button8.Text = ">"
+        Me.Button8.UseVisualStyleBackColor = False
+        '
+        'Button9
+        '
+        Me.Button9.BackColor = System.Drawing.Color.Red
+        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button9.Location = New System.Drawing.Point(66, 197)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(20, 22)
+        Me.Button9.TabIndex = 47
+        Me.Button9.Text = "<"
+        Me.Button9.UseVisualStyleBackColor = False
+        '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.Color.GreenYellow
+        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button10.Location = New System.Drawing.Point(84, 249)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(20, 22)
+        Me.Button10.TabIndex = 50
+        Me.Button10.Text = ">"
+        Me.Button10.UseVisualStyleBackColor = False
+        '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.Color.Red
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button11.Location = New System.Drawing.Point(66, 249)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(20, 22)
+        Me.Button11.TabIndex = 49
+        Me.Button11.Text = "<"
+        Me.Button11.UseVisualStyleBackColor = False
+        '
+        'Button12
+        '
+        Me.Button12.BackColor = System.Drawing.Color.GreenYellow
+        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button12.Location = New System.Drawing.Point(84, 298)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(20, 22)
+        Me.Button12.TabIndex = 52
+        Me.Button12.Text = ">"
+        Me.Button12.UseVisualStyleBackColor = False
+        '
+        'Button13
+        '
+        Me.Button13.BackColor = System.Drawing.Color.Red
+        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button13.Location = New System.Drawing.Point(66, 298)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(20, 22)
+        Me.Button13.TabIndex = 51
+        Me.Button13.Text = "<"
+        Me.Button13.UseVisualStyleBackColor = False
+        '
+        'Button14
+        '
+        Me.Button14.BackColor = System.Drawing.Color.GreenYellow
+        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button14.Location = New System.Drawing.Point(84, 347)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(20, 22)
+        Me.Button14.TabIndex = 54
+        Me.Button14.Text = ">"
+        Me.Button14.UseVisualStyleBackColor = False
+        '
+        'Button15
+        '
+        Me.Button15.BackColor = System.Drawing.Color.Red
+        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button15.Location = New System.Drawing.Point(66, 347)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(20, 22)
+        Me.Button15.TabIndex = 53
+        Me.Button15.Text = "<"
+        Me.Button15.UseVisualStyleBackColor = False
+        '
+        'Button16
+        '
+        Me.Button16.BackColor = System.Drawing.Color.GreenYellow
+        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button16.Location = New System.Drawing.Point(84, 147)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(20, 22)
+        Me.Button16.TabIndex = 56
+        Me.Button16.Text = ">"
+        Me.Button16.UseVisualStyleBackColor = False
+        '
+        'Button17
+        '
+        Me.Button17.BackColor = System.Drawing.Color.Red
+        Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button17.Location = New System.Drawing.Point(66, 147)
+        Me.Button17.Name = "Button17"
+        Me.Button17.Size = New System.Drawing.Size(20, 22)
+        Me.Button17.TabIndex = 55
+        Me.Button17.Text = "<"
+        Me.Button17.UseVisualStyleBackColor = False
+        '
+        'Button18
+        '
+        Me.Button18.BackColor = System.Drawing.Color.GreenYellow
+        Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button18.Location = New System.Drawing.Point(84, 197)
+        Me.Button18.Name = "Button18"
+        Me.Button18.Size = New System.Drawing.Size(20, 22)
+        Me.Button18.TabIndex = 69
+        Me.Button18.Text = ">"
+        Me.Button18.UseVisualStyleBackColor = False
+        '
+        'Button19
+        '
+        Me.Button19.BackColor = System.Drawing.Color.Red
+        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button19.Location = New System.Drawing.Point(66, 197)
+        Me.Button19.Name = "Button19"
+        Me.Button19.Size = New System.Drawing.Size(20, 22)
+        Me.Button19.TabIndex = 68
+        Me.Button19.Text = "<"
+        Me.Button19.UseVisualStyleBackColor = False
+        '
+        'Button20
+        '
+        Me.Button20.BackColor = System.Drawing.Color.GreenYellow
+        Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button20.Location = New System.Drawing.Point(84, 247)
+        Me.Button20.Name = "Button20"
+        Me.Button20.Size = New System.Drawing.Size(20, 22)
+        Me.Button20.TabIndex = 71
+        Me.Button20.Text = ">"
+        Me.Button20.UseVisualStyleBackColor = False
+        '
+        'Button21
+        '
+        Me.Button21.BackColor = System.Drawing.Color.Red
+        Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button21.Location = New System.Drawing.Point(66, 247)
+        Me.Button21.Name = "Button21"
+        Me.Button21.Size = New System.Drawing.Size(20, 22)
+        Me.Button21.TabIndex = 70
+        Me.Button21.Text = "<"
+        Me.Button21.UseVisualStyleBackColor = False
+        '
+        'Button22
+        '
+        Me.Button22.BackColor = System.Drawing.Color.GreenYellow
+        Me.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button22.Location = New System.Drawing.Point(84, 294)
+        Me.Button22.Name = "Button22"
+        Me.Button22.Size = New System.Drawing.Size(20, 22)
+        Me.Button22.TabIndex = 73
+        Me.Button22.Text = ">"
+        Me.Button22.UseVisualStyleBackColor = False
+        '
+        'Button23
+        '
+        Me.Button23.BackColor = System.Drawing.Color.Red
+        Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button23.Location = New System.Drawing.Point(66, 294)
+        Me.Button23.Name = "Button23"
+        Me.Button23.Size = New System.Drawing.Size(20, 22)
+        Me.Button23.TabIndex = 72
+        Me.Button23.Text = "<"
+        Me.Button23.UseVisualStyleBackColor = False
+        '
+        'Button24
+        '
+        Me.Button24.BackColor = System.Drawing.Color.GreenYellow
+        Me.Button24.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button24.Location = New System.Drawing.Point(84, 343)
+        Me.Button24.Name = "Button24"
+        Me.Button24.Size = New System.Drawing.Size(20, 22)
+        Me.Button24.TabIndex = 75
+        Me.Button24.Text = ">"
+        Me.Button24.UseVisualStyleBackColor = False
+        '
+        'Button25
+        '
+        Me.Button25.BackColor = System.Drawing.Color.Red
+        Me.Button25.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button25.Location = New System.Drawing.Point(66, 343)
+        Me.Button25.Name = "Button25"
+        Me.Button25.Size = New System.Drawing.Size(20, 22)
+        Me.Button25.TabIndex = 74
+        Me.Button25.Text = "<"
+        Me.Button25.UseVisualStyleBackColor = False
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1189, 525)
+        Me.Controls.Add(Me.grpPESAN)
+        Me.Controls.Add(Me.lblStaff)
+        Me.Controls.Add(Me.lblsdir)
+        Me.Controls.Add(Me.lblDEPUTI)
+        Me.Controls.Add(Me.lbldir)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Name = "Form1"
+        Me.Text = "Form1"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.grpPESAN.ResumeLayout(False)
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
+        Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox4.PerformLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents cmbkedeputian As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbdirektorat As System.Windows.Forms.ComboBox
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents cmbsubdir As System.Windows.Forms.ComboBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents cmbStaff As System.Windows.Forms.ComboBox
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents lbldir As System.Windows.Forms.Label
+    Friend WithEvents lblsdir As System.Windows.Forms.Label
+    Friend WithEvents lblStaff As System.Windows.Forms.Label
+    Friend WithEvents grpPESAN As System.Windows.Forms.GroupBox
+    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
+    Friend WithEvents Skid As System.Windows.Forms.TextBox
+    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
+    Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
+    Friend WithEvents lblDEPUTI As System.Windows.Forms.Label
+    Friend WithEvents deputi As System.Windows.Forms.Timer
+    Friend WithEvents direktorat As System.Windows.Forms.Timer
+    Friend WithEvents subdir As System.Windows.Forms.Timer
+    Friend WithEvents tmrSTAFF As System.Windows.Forms.Timer
+    Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
+    Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Label12 As System.Windows.Forms.Label
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents XXLkid As System.Windows.Forms.TextBox
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents XLkid As System.Windows.Forms.TextBox
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Lkid As System.Windows.Forms.TextBox
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents Mkid As System.Windows.Forms.TextBox
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox7 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox8 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox9 As System.Windows.Forms.PictureBox
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents CheckBox8 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox9 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox6 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox7 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox4 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox5 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents CheckBox11 As System.Windows.Forms.CheckBox
+    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents Button24 As System.Windows.Forms.Button
+    Friend WithEvents Button25 As System.Windows.Forms.Button
+    Friend WithEvents Button22 As System.Windows.Forms.Button
+    Friend WithEvents Button23 As System.Windows.Forms.Button
+    Friend WithEvents Button20 As System.Windows.Forms.Button
+    Friend WithEvents Button21 As System.Windows.Forms.Button
+    Friend WithEvents Button18 As System.Windows.Forms.Button
+    Friend WithEvents Button19 As System.Windows.Forms.Button
+    Friend WithEvents Button16 As System.Windows.Forms.Button
+    Friend WithEvents Button17 As System.Windows.Forms.Button
+    Friend WithEvents TextBox10 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
+    Friend WithEvents Madul As System.Windows.Forms.TextBox
+    Friend WithEvents Sadult As System.Windows.Forms.TextBox
+    Friend WithEvents CheckBox10 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox12 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox13 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox14 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox15 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox16 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox17 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox18 As System.Windows.Forms.CheckBox
+    Friend WithEvents Label17 As System.Windows.Forms.Label
+    Friend WithEvents CheckBox19 As System.Windows.Forms.CheckBox
+    Friend WithEvents CheckBox20 As System.Windows.Forms.CheckBox
+    Friend WithEvents Button14 As System.Windows.Forms.Button
+    Friend WithEvents Button15 As System.Windows.Forms.Button
+    Friend WithEvents Button12 As System.Windows.Forms.Button
+    Friend WithEvents Button13 As System.Windows.Forms.Button
+    Friend WithEvents Button10 As System.Windows.Forms.Button
+    Friend WithEvents Button11 As System.Windows.Forms.Button
+    Friend WithEvents Button8 As System.Windows.Forms.Button
+    Friend WithEvents Button9 As System.Windows.Forms.Button
+    Friend WithEvents Button7 As System.Windows.Forms.Button
+    Friend WithEvents Button6 As System.Windows.Forms.Button
+
+End Class

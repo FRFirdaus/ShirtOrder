@@ -1,0 +1,137 @@
+﻿Public Class Form1
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+
+    End Sub
+    Private Sub ComboBox4_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbStaff.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub lblsdir_Click(sender As Object, e As EventArgs) Handles lblsdir.Click
+
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        cmbdirektorat.Enabled = False
+        cmbsubdir.Enabled = False
+        cmbStaff.Enabled = False
+    End Sub
+
+    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbkedeputian.SelectedIndexChanged
+        Dim pil As String
+        pil = cmbkedeputian.Items(cmbkedeputian.SelectedIndex).ToString
+        cmbdirektorat.Enabled = True
+        cmbsubdir.Enabled = False
+        cmbStaff.Enabled = False
+        Select Case pil
+            Case "Sekretariat Utama"
+                cmbdirektorat.Items.Clear()
+                cmbdirektorat.Items.Add("Karo Bina Program")
+                cmbdirektorat.Items.Add("Karo Keuangan")
+                cmbdirektorat.Items.Add("Karo Kepegawaian")
+                cmbdirektorat.Items.Add("Karo Humas dan Hukum")
+                cmbdirektorat.Items.Add("Karo Umum")
+                cmbdirektorat.Items.Add("Karo Pusdiklat")
+                cmbdirektorat.Items.Add("Ketua STIS")
+            Case "Bidang Metodologi dan Informasi Statistik"
+                cmbdirektorat.Items.Clear()
+                cmbdirektorat.Items.Add("Dir. Pengembangan Desain Sensus dan Survei")
+                cmbdirektorat.Items.Add("Dir. Diseminasi Statistik")
+                cmbdirektorat.Items.Add("Dir. Sistem Informasi Statistik")
+            Case "Bidang Stat Sosial"
+                cmbdirektorat.Items.Clear()
+                cmbdirektorat.Items.Add("Dir. Stat Kepend & Ketenagakerjaan")
+                cmbdirektorat.Items.Add("Dir. Stat Kesejahteraan Rakyat")
+                cmbdirektorat.Items.Add("Dir. Stat Ketahanan Sosial")
+            Case "Bidang Stat Produksi"
+                cmbdirektorat.Items.Clear()
+                cmbdirektorat.Items.Add("Dir. Stat Tanaman Pangan & Perkebunan")
+                cmbdirektorat.Items.Add("Dir. Stat Peternakan, Perikanan & Kehutanan")
+                cmbdirektorat.Items.Add("Dir. Stat Industri")
+            Case "Bidang Stat Distribusi dan Jasa"
+                cmbdirektorat.Items.Clear()
+                cmbdirektorat.Items.Add("Dir. Stat Distribusi")
+                cmbdirektorat.Items.Add("Dir. Stat Harga")
+                cmbdirektorat.Items.Add("Dir. Stat Keuangan, TI dan Pariwisata")
+            Case "Bidang Neraca dan Analisis Statistik"
+                cmbdirektorat.Items.Clear()
+                cmbdirektorat.Items.Add("Dir. Neraca Produksi")
+                cmbdirektorat.Items.Add("Dir. Neraca Pengeluaran")
+                cmbdirektorat.Items.Add("Dir. Analisis & Pengembangan Staff")
+            Case "Inspektur Utama"
+                cmbdirektorat.Items.Clear()
+                cmbdirektorat.Items.Add("Inspektur Wilayah 1")
+                cmbdirektorat.Items.Add("Inspektur Wilayah 2")
+                cmbdirektorat.Items.Add("Inspektur Wilayah 3")
+                cmbdirektorat.Items.Add("Administrasi")
+        End Select
+    End Sub
+
+    Private Sub cmbdirektorat_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbdirektorat.SelectedIndexChanged
+        Dim pil As String
+        pil = cmbdirektorat.Items(cmbdirektorat.SelectedIndex).ToString
+
+        Select Case pil
+            Case "Karo Bina Program"
+                cmbsubdir.Items.Add("Penyusunan Rencana")
+                cmbsubdir.Items.Add("Penyusunan Anggaran")
+                cmbsubdir.Items.Add("Monitoring & Evaluasi")
+                cmbsubdir.Items.Add("Transformasi Statistik")
+            Case "Karo Keuangan"
+                cmbsubdir.Items.Add("Administrasi Keuangan")
+                cmbsubdir.Items.Add("Perbendaharaan")
+                cmbsubdir.Items.Add("Verifikasi")
+                cmbsubdir.Items.Add("Akuntansi")
+            Case "Karo Kepegawaian"
+                cmbsubdir.Items.Add("Administrasi Kepegawaian")
+                cmbsubdir.Items.Add("Mutasi Pegawai")
+                cmbsubdir.Items.Add("Kesejahteraan & Pengembangan Pegawai")
+                cmbsubdir.Items.Add("Jabatan Fungsional")
+            Case "Karo Humas dan Hukum"
+                cmbsubdir.Items.Add("Kerjasama, Protokol & Penyiapan Materi Pimpinan")
+                cmbsubdir.Items.Add("Hubungan Masyarakat")
+                cmbsubdir.Items.Add("Hukum & Organisasi")
+            Case "Karo Umum"
+                cmbsubdir.Items.Add("Rumah Tangga")
+                cmbsubdir.Items.Add("Penyimpanan & Penghapusan")
+                cmbsubdir.Items.Add("Pengadaan Barang Jasa")
+                cmbsubdir.Items.Add("Pencetakan, Arsip & Ekspedisi")
+            Case "Karo Pusdiklat"
+                cmbsubdir.Items.Add("Tata Usaha")
+                cmbsubdir.Items.Add("Diklat Prajabatan & Kepemimpinan")
+                cmbsubdir.Items.Add("Diklat Teknis & Fungsional")
+                cmbsubdir.Items.Add("Ruang Widyaiswara")
+            Case "Ketua STIS"
+                cmbsubdir.Items.Add("Adm. Akademik & Kemahasiswaan")
+                cmbsubdir.Items.Add("Adm. Umum")
+                cmbsubdir.Items.Add("Pembantu Ketua STIS")
+                cmbsubdir.Items.Add("Ketua Jurusan")
+
+            Case "Dir. Pengembangan Desain Sensus dan Survei"
+            Case "Dir. Diseminasi Statistik"
+            Case "Dir. Sistem Informasi Statistik"
+
+            Case "Dir. Stat Kepend & Ketenagakerjaan"
+            Case "Dir. Stat Kesejahteraan Rakyat"
+            Case "Dir. Stat Ketahanan Sosial"
+
+            Case "Dir. Stat Tanaman Pangan & Perkebunan"
+            Case "Dir. Stat Peternakan, Perikanan & Kehutanan"
+            Case "Dir. Stat Industri"
+
+            Case "Dir. Stat Distribusi"
+            Case "Dir. Stat Harga"
+            Case "Dir. Stat Keuangan, TI dan Pariwisata"
+
+            Case "Dir. Neraca Produksi"
+            Case "Dir. Neraca Pengeluaran"
+            Case "Dir. Analisis & Pengembangan Staff"
+
+            Case "Inspektur Wilayah 1"
+            Case "Inspektur Wilayah 2"
+            Case "Inspektur Wilayah 3"
+            Case "Administrasi"
+
+        End Select
+    End Sub
+End Class
